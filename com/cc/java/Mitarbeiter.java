@@ -32,7 +32,7 @@ public class Mitarbeiter {
   }
 
   public String toString() {
-    return "Name: " + familyName + " Vorname: " + firstName + " Funktion: " + role + " Beitrittsjahr: " + yearOfEntry;
+    return "Name: " + familyName + ", Vorname: " + firstName + ", Funktion: " + role + ", Beitrittsjahr: " + yearOfEntry;
     
   }
   
