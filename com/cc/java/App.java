@@ -11,6 +11,8 @@ public class App {
 		output(mitarbeiter1.getInfo("#Funktion"));
 		output(mitarbeiter1.getInfo("#Beitrittsjahr"));
 
+		output(mitarbeiter1.toString());
+
 		output("--------------------------");
 
 		Mitarbeiter mitarbeiter2 = new Mitarbeiter("Neufrau", "Julia", "Abteilungsleiterin", 2011);
@@ -20,6 +22,8 @@ public class App {
 		output(mitarbeiter2.getInfo("#Funktion"));
 		output(mitarbeiter2.getInfo("#Beitrittsjahr"));
 
+		output(mitarbeiter2.toString());
+
 		output("--------------------------");
 
 		Mitarbeiter mitarbeiter3 = new Mitarbeiter("Marli", "Max", "Buchhalter", 2013);
@@ -28,6 +32,8 @@ public class App {
 		output(mitarbeiter3.getInfo("#Vorname"));
 		output(mitarbeiter3.getInfo("#Funktion"));
 		output(mitarbeiter3.getInfo("#Beitrittsjahr"));
+
+		output(mitarbeiter3.toString());
 
 
 	}
