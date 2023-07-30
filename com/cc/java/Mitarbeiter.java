@@ -17,11 +17,11 @@ public class Mitarbeiter {
   public String  getInfo(String op) {
 
     switch (op) {
-      case "#Nachname":
+      case "#Name":
         return familyName;
       case "#Vorname":
         return firstName;
-      case "#Stelle":
+      case "#Funktion":
         return role;
        case "#Beitrittsjahr":
       return String.valueOf(yearOfEntry);
